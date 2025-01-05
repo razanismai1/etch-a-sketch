@@ -22,10 +22,53 @@ body {
   flex-direction: column;
   width: 500px;
   height: 500px;
-  border: 1px hsl(0, 0%, 0%) dotted;
+  border: 1px hsl(0, 0%, 0%) solid;
 }
 
 .each-box {
   border: 0.3px #888 solid;
   flex-grow: 1;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #f7d8d8, #5b5a5a);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+}
+
+#favcolor {
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+/* utility classes */
+
+.btn {
+  background-color: #888;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  color: rgb(243, 243, 243);
+  border: none;
+  transition: 0.5s;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #6d6c6c;
 }
