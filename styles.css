@@ -8,7 +8,7 @@ body {
   justify-content: space-evenly;
   min-height: 100vh;
   align-items: center;
-  background-color: hsl(0, 21%, 91%);
+  background-color: #ede3e3;
 }
 
 .row-class {
@@ -49,6 +49,12 @@ h1 {
 
 #favcolor {
   margin-bottom: 30px;
+  width: 50px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 0;
+  cursor: pointer;
 }
 
 .buttons {
