@@ -2,7 +2,7 @@
 
 A browser-based drawing board inspired by the classic Etch A Sketch toy. Draw and sketch with different colors and effects.
 
-[View Live Demo](#) <!-- project's live demo link not yet ready -->
+[View Live Demo](https://razanismai1.github.io/etch-a-sketch)
 
 ## Features
 
