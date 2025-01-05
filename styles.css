@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  align-items: center;
+  background-color: hsl(0, 21%, 91%);
+}
+
+.row-class {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  border: 1px hsl(0, 0%, 0%) dotted;
+}
+
+.each-box {
+  border: 0.3px #888 solid;
+  flex-grow: 1;
+}
